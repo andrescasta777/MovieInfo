@@ -1,0 +1,33 @@
+{
+  "name": "proyecto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "webpack": "webpack --mode development --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "file-loader": "^6.2.0",
+    "mongoose": "^6.0.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.12",
+    "url-loader": "^4.1.1",
+    "vue-lazytube": "^1.0.2",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.15.0",
+    "babel-loader": "^8.2.2",
+    "babel-preset-env": "^1.7.0",
+    "vue": "^2.6.14",
+    "vue-loader": "^15.9.8",
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0"
+  }
+}
